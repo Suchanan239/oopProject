@@ -3,12 +3,12 @@ package UIManager;
 import java.awt.Dimension;
 import ButtonManager.*;
 
-public class gamePlayUI extends javax.swing.JFrame {
+public class GamePlayUI extends javax.swing.JFrame {
 
     /**
      * Creates new form gamePlayUI
      */ 
-    public gamePlayUI() {
+    public GamePlayUI() {
         initComponents();
         hitButton.setPreferredSize(new Dimension(300, 50));
         standButton.setPreferredSize(new Dimension(300, 50));

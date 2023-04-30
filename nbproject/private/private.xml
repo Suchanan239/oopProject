@@ -3,17 +3,11 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/Users/Suchanan/OneDrive/Documents/NetBeansProjects/Untitled-BlackJack/src/UIManager/standButtonUI.java</file>
-            <file>file:/C:/Users/Suchanan/OneDrive/Documents/NetBeansProjects/Untitled-BlackJack/src/ButtonManager/standButtonManager.java</file>
+            <file>file:/C:/Users/Suchanan/OneDrive/Documents/NetBeansProjects/Untitled-BlackJack/src/Game/test.java</file>
             <file>file:/C:/Users/Suchanan/OneDrive/Documents/NetBeansProjects/Untitled-BlackJack/src/Game/Player.java</file>
-            <file>file:/C:/Users/Suchanan/OneDrive/Documents/NetBeansProjects/Untitled-BlackJack/src/UIManager/hitButtonUI.java</file>
-            <file>file:/C:/Users/Suchanan/OneDrive/Documents/NetBeansProjects/Untitled-BlackJack/src/Game/imageDisplay.java</file>
-            <file>file:/C:/Users/Suchanan/OneDrive/Documents/NetBeansProjects/Untitled-BlackJack/src/Game/gameTest.java</file>
-            <file>file:/C:/Users/Suchanan/OneDrive/Documents/NetBeansProjects/Untitled-BlackJack/src/UIManager/gamePlayUI.java</file>
-            <file>file:/C:/Users/Suchanan/OneDrive/Documents/NetBeansProjects/Untitled-BlackJack/src/UIManager/gamePlay_UI.java</file>
+            <file>file:/C:/Users/Suchanan/OneDrive/Documents/NetBeansProjects/Untitled-BlackJack/src/UIManager/GamePlay__UI.java</file>
+            <file>file:/C:/Users/Suchanan/OneDrive/Documents/NetBeansProjects/Untitled-BlackJack/src/UIManager/BackgroundImage.java</file>
             <file>file:/C:/Users/Suchanan/OneDrive/Documents/NetBeansProjects/Untitled-BlackJack/src/Game/Judge.java</file>
-            <file>file:/C:/Users/Suchanan/OneDrive/Documents/NetBeansProjects/Untitled-BlackJack/src/ButtonManager/hitButtonManager.java</file>
-            <file>file:/C:/Users/Suchanan/OneDrive/Documents/NetBeansProjects/Untitled-BlackJack/src/Game/Chip.java</file>
         </group>
     </open-files>
 </project-private>

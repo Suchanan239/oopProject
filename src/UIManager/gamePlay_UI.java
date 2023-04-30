@@ -1,18 +1,18 @@
 
 package UIManager;
 
-import ButtonManager.hitButtonManager;
+import ButtonManager.HitButtonManager;
 import java.awt.ActiveEvent;
 import java.awt.Dimension;
 import java.awt.Font;
 import javax.swing.JFrame;
 
-public class gamePlay_UI extends JFrame implements ActiveEvent{
-    public hitButtonUI hitButton = new hitButtonUI();
-    public standButtonUI standButton = new standButtonUI();
-    public hitButtonManager hitButtonManager = new hitButtonManager();
+public class GamePlay_UI extends JFrame implements ActiveEvent{
+    public HitButtonUI hitButton = new HitButtonUI();
+    public StandButtonUI standButton = new StandButtonUI();
+    public HitButtonManager hitButtonManager = new HitButtonManager();
     
-    public gamePlay_UI(){
+    public GamePlay_UI(){
         
         initComponents();
         
