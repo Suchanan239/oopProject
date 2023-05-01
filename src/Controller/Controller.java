@@ -13,11 +13,13 @@ import java.awt.event.ActionListener;
 import javax.swing.ImageIcon;
 import javax.swing.JLabel;
 import Game.RandomCard;
+import java.awt.Component;
 
 public class Controller implements ActionListener{
     public GamePlayDisplayGUI gameGUI;
     public PlayerOne playerOne;
     public RandomCard randomCard;
+    public Judge judge;
     
     public Controller(){
         gameGUI = new GamePlayDisplayGUI();
@@ -45,6 +47,7 @@ public class Controller implements ActionListener{
     public void showRandomCard(Card card, String hit) {
         randomCard.setShowCard(randomCard.randomCard(card));
         if (hit.equals("Player's hit")) {
+            
             gameGUI.getPlayerOneTable().add(randomCard.getShowCard());
             playerOne.setScore(playerOne.getScore() + card.getValue());
             gameGUI.getScoreLabel().setText("Score: " + playerOne.getScore());
@@ -60,4 +63,19 @@ public class Controller implements ActionListener{
             gameGUI.getButtonPanel().repaint();
         }
     }
+    
+//    public void currentTurnPlayer(Player playerTurn){
+//        if(playerTurn.isStatus() == false){
+//            gameGUI.getHitButton().setEnabled(false);
+//            judge.setCurrentPlayer(playerTurn);
+//            System.out.println("1232131232");
+//            
+//    }else{
+//            gameGUI.getHitButton().setEnabled(true);
+//            judge.setCurrentPlayer(playerTurn);
+//            playerTurn.setStatus(false);
+//            System.out.println("asdasd");
+//        }
 }
+//}
+

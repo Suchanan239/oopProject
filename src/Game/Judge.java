@@ -1,5 +1,5 @@
 package Game;
-
+import UIManager.*;
 
 import java.util.*;
 
@@ -13,6 +13,8 @@ public class Judge {
     private static Player currentPlayer;
     private static Random random = new Random();
     private static boolean isEndGame = false;
+    private static GamePlayDisplayGUI gameGUI = new GamePlayDisplayGUI();
+    
 
     public static Card giveCard(Player p) {
         Object[] values = deckCard.values().toArray();
@@ -42,6 +44,8 @@ public class Judge {
     public static void setCurrentPlayer(Player currentPlayer) {
         Judge.currentPlayer = currentPlayer;
     }
+    
+    
 
     // getter which turn th game current is
     public static Player getPlayerTurn() {
@@ -57,6 +61,18 @@ public class Judge {
             currentPlayer = players.get(0);
         }
     }
+    public void currentTurnPlayer(){
+        if(currentPlayer == players.get(0)){
+            gameGUI.getHitButton().setEnabled(true);
+            gameGUI.getStandButton().setEnabled(true);
+            System.out.println("1232131232");
+            
+    }else{
+            gameGUI.getHitButton().setEnabled(false);
+            gameGUI.getStandButton().setEnabled(false);
+            System.out.println("asdasd");
+        }
+}
 
 //    public static void endGame() {
 //
@@ -65,6 +81,8 @@ public class Judge {
     public static ArrayList<Player> getAllPlayers() {
         return players;
     }
+    
+    
     
     public static String CalculateScore(int scoreA, int scoreB){
         if ((scoreA > scoreB) & (scoreA <= 21)){
