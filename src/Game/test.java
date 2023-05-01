@@ -1,6 +1,7 @@
 
 package Game;
 
+import UIManager.GamePlayUI;
 import UIManager.GamePlay__UI;
 
 public class test {
@@ -11,6 +12,6 @@ public class test {
         Judge.join(player1);
         Judge.join(player2);
         Judge.setCurrentPlayer(player1);
-        new GamePlay__UI();
+        new GamePlayUI();
     }
 }

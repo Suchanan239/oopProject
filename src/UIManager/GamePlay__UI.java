@@ -38,8 +38,8 @@ public class GamePlay__UI {
     }
 
     public void creatingGameplayUI() {
-        backgroundImage = new ImageIcon("resources/loginBackground.PNG");
-        backgroundPanel = new BackgroundImage(backgroundImage, new Dimension(100, 100));
+//        backgroundImage = new ImageIcon("resources/loginBackground.PNG");
+//        backgroundPanel = new BackgroundImage(backgroundImage, new Dimension(100, 100));
         hitButton = new JButton();
         standButton = new JButton();
         playerTwo = new PlayerTwo();
@@ -160,9 +160,8 @@ public class GamePlay__UI {
         plainPanel.setBackground(null);
         plainPanel2.setBackground(null);
         plainPanel3.setBackground(null);
-        trumpUsePanel.setBackground(null);
-        
-        frame.setContentPane(backgroundPanel);
+        trumpUsePanel.setBackground(null);        
+//        frame.setContentPane(backgroundPanel);
     }
 
     public void showRandomCard(Card randomCard, String hit) {
