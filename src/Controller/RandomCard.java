@@ -1,6 +1,7 @@
 
-package Game;
+package Controller;
 
+import Game.Card;
 import java.awt.Image;
 import javax.swing.ImageIcon;
 import javax.swing.JLabel;
@@ -10,7 +11,7 @@ public class RandomCard {
     
     public JLabel randomCard(Card randomCard){
         Image image = randomCard.getImage().getImage();//It's ImageIcon icon = randomCard.getImage(); and Image = icon.getImage(); combine together :)
-        Image scaledImage = image.getScaledInstance(137, 187, Image.SCALE_SMOOTH);
+        Image scaledImage = image.getScaledInstance(107, 157, Image.SCALE_SMOOTH);
         ImageIcon scaledIcon = new ImageIcon(scaledImage);
 
         showCard = new JLabel(scaledIcon);

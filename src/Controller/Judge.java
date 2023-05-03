@@ -1,4 +1,10 @@
-package Game;
+package Controller;
+import Game.Card;
+import Game.CardHandler;
+import Game.Player;
+import Game.PlayerOne;
+import Game.PlayerTwo;
+import Game.TrumpChip;
 import UIManager.*;
 
 import java.util.*;
@@ -7,13 +13,15 @@ public class Judge {
 
     private static final CardHandler CARDS = new CardHandler();
     private static HashMap<String, Card> deckCard = CARDS.getHashMap(); //deckCard have hashmap of handler
-    private static ArrayList<Chip> deckChip;
+    private static ArrayList<TrumpChip> deckChip;
     // Players in the game
     private static ArrayList<Player> players = new ArrayList<Player>();
     private static Player currentPlayer;
     private static Random random = new Random();
     private static boolean isEndGame = false;
     private static GamePlayDisplayGUI gameGUI = new GamePlayDisplayGUI();
+    private static PlayerOne playerOne = new PlayerOne();
+    private static PlayerTwo playerTwo = new PlayerTwo();
     
 
     public static Card giveCard(Player p) {
@@ -63,13 +71,13 @@ public class Judge {
     }
     public void currentTurnPlayer(){
         if(currentPlayer == players.get(0)){
-            gameGUI.getHitButton().setEnabled(true);
-            gameGUI.getStandButton().setEnabled(true);
+            gameGUI.getHitButtonPlayerOne().setEnabled(true);
+            gameGUI.getStandButtonPlayerOne().setEnabled(true);
             System.out.println("1232131232");
             
     }else{
-            gameGUI.getHitButton().setEnabled(false);
-            gameGUI.getStandButton().setEnabled(false);
+            gameGUI.getHitButtonPlayerTwo().setEnabled(false);
+            gameGUI.getStandButtonPlayerTwo().setEnabled(false);
             System.out.println("asdasd");
         }
 }
@@ -82,7 +90,14 @@ public class Judge {
         return players;
     }
     
-    
+    public void stand(){
+        if(((playerOne.isStatus() == false) & (playerTwo.isStatus() == true))|((playerOne.isStatus() == true) & (playerTwo.isStatus() == false))){
+            switchTurn();
+        }
+        else{
+            CalculateScore(playerOne.getScore(), playerTwo.getScore());
+        }
+    }
     
     public static String CalculateScore(int scoreA, int scoreB){
         if ((scoreA > scoreB) & (scoreA <= 21)){

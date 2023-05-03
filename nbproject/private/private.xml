@@ -4,22 +4,22 @@
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
             <file>file:/C:/Users/Suchanan/OneDrive/Documents/NetBeansProjects/Untitled-BlackJack/src/Controller/Controller.java</file>
-            <file>file:/C:/Users/Suchanan/OneDrive/Documents/NetBeansProjects/Untitled-BlackJack/src/Game/TestGame.java</file>
-            <file>file:/C:/Users/Suchanan/OneDrive/Documents/NetBeansProjects/Untitled-BlackJack/src/Game/RandomCard.java</file>
             <file>file:/C:/Users/Suchanan/OneDrive/Documents/NetBeansProjects/Untitled-BlackJack/src/Game/PlayerTwo.java</file>
-            <file>file:/C:/Users/Suchanan/OneDrive/Documents/NetBeansProjects/Untitled-BlackJack/src/UIManager/GamePlay__UI.java</file>
+            <file>file:/C:/Users/Suchanan/OneDrive/Documents/NetBeansProjects/Untitled-BlackJack/src/Controller/RandomCard.java</file>
+            <file>file:/C:/Users/Suchanan/OneDrive/Documents/NetBeansProjects/Untitled-BlackJack/src/Game/UtilityTrumpChip.java</file>
+            <file>file:/C:/Users/Suchanan/OneDrive/Documents/NetBeansProjects/Untitled-BlackJack/src/Game/AttackTrumpChip.java</file>
+            <file>file:/C:/Users/Suchanan/OneDrive/Documents/NetBeansProjects/Untitled-BlackJack/src/UIManager/LoginDisplayGUI.java</file>
+            <file>file:/C:/Users/Suchanan/OneDrive/Documents/NetBeansProjects/Untitled-BlackJack/src/Controller/TestGame.java</file>
             <file>file:/C:/Users/Suchanan/OneDrive/Documents/NetBeansProjects/Untitled-BlackJack/src/Game/PlayerOne.java</file>
-            <file>file:/C:/Users/Suchanan/OneDrive/Documents/NetBeansProjects/Untitled-BlackJack/src/UIManager/GamePlayUI.java</file>
             <file>file:/C:/Users/Suchanan/OneDrive/Documents/NetBeansProjects/Untitled-BlackJack/src/Game/Card.java</file>
-            <file>file:/C:/Users/Suchanan/OneDrive/Documents/NetBeansProjects/Untitled-BlackJack/src/Game/GameTest.java</file>
-            <file>file:/C:/Users/Suchanan/OneDrive/Documents/NetBeansProjects/Untitled-BlackJack/src/UIManager/GamePlay_UI.java</file>
+            <file>file:/C:/Users/Suchanan/OneDrive/Documents/NetBeansProjects/Untitled-BlackJack/src/Game/TrumpChipAbilities.java</file>
             <file>file:/C:/Users/Suchanan/OneDrive/Documents/NetBeansProjects/Untitled-BlackJack/src/Game/Player.java</file>
-            <file>file:/C:/Users/Suchanan/OneDrive/Documents/NetBeansProjects/Untitled-BlackJack/src/UIManager/BackgroundImage.java</file>
             <file>file:/C:/Users/Suchanan/OneDrive/Documents/NetBeansProjects/Untitled-BlackJack/src/UIManager/GamePlayDisplayGUI.java</file>
+            <file>file:/C:/Users/Suchanan/OneDrive/Documents/NetBeansProjects/Untitled-BlackJack/src/Game/TrumpChip.java</file>
+            <file>file:/C:/Users/Suchanan/OneDrive/Documents/NetBeansProjects/Untitled-BlackJack/src/Game/HitCardTrumpChip.java</file>
+            <file>file:/C:/Users/Suchanan/OneDrive/Documents/NetBeansProjects/Untitled-BlackJack/src/resources/A.PNG</file>
             <file>file:/C:/Users/Suchanan/OneDrive/Documents/NetBeansProjects/Untitled-BlackJack/src/Game/Judge.java</file>
-            <file>file:/C:/Users/Suchanan/OneDrive/Documents/NetBeansProjects/Untitled-BlackJack/src/Game/CardHandler.java</file>
             <file>file:/C:/Users/Suchanan/OneDrive/Documents/NetBeansProjects/Untitled-BlackJack/src/resources/HitButton.PNG</file>
-            <file>file:/C:/Users/Suchanan/OneDrive/Documents/NetBeansProjects/Untitled-BlackJack/src/Game/Chip.java</file>
         </group>
     </open-files>
 </project-private>

@@ -1,6 +1,8 @@
-package Game;
+package Controller;
 
 import Controller.Controller;
+import Game.PlayerOne;
+import Game.PlayerTwo;
 import UIManager.GamePlayDisplayGUI;
 
 public class TestGame {
@@ -33,14 +35,12 @@ public class TestGame {
         /* Create and display the form */
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
-                Player player1 = new Player();
-                Player player2 = new Player();
+                PlayerOne player1 = new PlayerOne();
+                PlayerTwo player2 = new PlayerTwo();
                 
-
                 Judge.join(player1);
                 Judge.join(player2);
                 Judge.setCurrentPlayer(player1);
-                
                 
                 new Controller();
             }

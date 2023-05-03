@@ -4,15 +4,17 @@ package Game;
 import javax.swing.*;
 import java.util.ArrayList;
 
-public class Player {
+public abstract class Player {
 
     private String name;
     private boolean status = true;
+    private int numOfCard = 0;
+    private int numOfTrumpChip = 0;
     private String connectID;
      //player's card
     private ArrayList<Card> myCard = new ArrayList<Card>();
      //player's chip
-    private ArrayList<Chip> myChip = new ArrayList<Chip>();
+    private ArrayList<TrumpChip> myChip = new ArrayList<TrumpChip>();
     
     public Player(){
         
@@ -46,13 +48,31 @@ public class Player {
         return myCard;
     }
     
-    public void addMyChip(Chip myChip){
+    public void addMyChip(TrumpChip myChip){
         this.myChip.add(myChip);
     }
     
-    public ArrayList<Chip> getMyChip() {
+    public ArrayList<TrumpChip> getMyChip() {
         return myChip;
     }
+
+    public int getNumOfCard() {
+        return numOfCard;
+    }
+
+    public void setNumOfCard(int numOfcard) {
+        this.numOfCard = numOfcard;
+    }
+
+    public String getConnectID() {
+        return connectID;
+    }
+
+    public void setConnectID(String connectID) {
+        this.connectID = connectID;
+    }
+    
+    
     
 //    
 //    public int cardPoint(){
@@ -66,8 +86,4 @@ public class Player {
 //        
 //    }
     
-    public void stand(){
-        this.status = true;
-        Judge.switchTurn();
-    }
 }
