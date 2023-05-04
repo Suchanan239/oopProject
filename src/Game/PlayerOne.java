@@ -1,15 +1,15 @@
 package Game;
 
-public class PlayerOne extends Player{
-    
-    public PlayerOne(String name){
-        this.setName(name);
-    }
-    
+public class PlayerOne extends Player {
+
     private int score;
 
+    public PlayerOne(String name) {
+        this.setName(name);
+    }
+
     public PlayerOne() {
-        
+
     }
 
     public int getScore() {
@@ -19,6 +19,5 @@ public class PlayerOne extends Player{
     public void setScore(int score) {
         this.score = score;
     }
-    
-    
+
 }

@@ -4,14 +4,28 @@ import javax.swing.ImageIcon;
 
 
 public class TrumpChip {
-    private String TrumpName;
+    private String name;
     private ImageIcon image;
-
-    public String getDisplayName() {
-        return TrumpName;
+    
+    public TrumpChip(String name, ImageIcon image){
+        this.name = name;
+        this.image = image;
     }
 
-    public void setDisplayName(String TrumpName) {
-        this.TrumpName = TrumpName;
-    }    
+    public String getname() {
+        return name;
+    }
+
+    public void setname(String name) {
+        this.name = name;
+    }
+
+    public ImageIcon getImage() {
+        return image;
+    }
+
+    public void setImage(ImageIcon image) {
+        this.image = image;
+    }
+    
 }

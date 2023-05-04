@@ -11,15 +11,17 @@
             <file>file:/C:/Users/Suchanan/OneDrive/Documents/NetBeansProjects/Untitled-BlackJack/src/UIManager/LoginDisplayGUI.java</file>
             <file>file:/C:/Users/Suchanan/OneDrive/Documents/NetBeansProjects/Untitled-BlackJack/src/Controller/TestGame.java</file>
             <file>file:/C:/Users/Suchanan/OneDrive/Documents/NetBeansProjects/Untitled-BlackJack/src/Game/PlayerOne.java</file>
+            <file>file:/C:/Users/Suchanan/OneDrive/Documents/NetBeansProjects/Untitled-BlackJack/src/Controller/Judge.java</file>
             <file>file:/C:/Users/Suchanan/OneDrive/Documents/NetBeansProjects/Untitled-BlackJack/src/Game/Card.java</file>
             <file>file:/C:/Users/Suchanan/OneDrive/Documents/NetBeansProjects/Untitled-BlackJack/src/Game/TrumpChipAbilities.java</file>
             <file>file:/C:/Users/Suchanan/OneDrive/Documents/NetBeansProjects/Untitled-BlackJack/src/Game/Player.java</file>
             <file>file:/C:/Users/Suchanan/OneDrive/Documents/NetBeansProjects/Untitled-BlackJack/src/UIManager/GamePlayDisplayGUI.java</file>
             <file>file:/C:/Users/Suchanan/OneDrive/Documents/NetBeansProjects/Untitled-BlackJack/src/Game/TrumpChip.java</file>
             <file>file:/C:/Users/Suchanan/OneDrive/Documents/NetBeansProjects/Untitled-BlackJack/src/Game/HitCardTrumpChip.java</file>
+            <file>file:/C:/Users/Suchanan/OneDrive/Documents/NetBeansProjects/Untitled-BlackJack/src/Game/TrumpChipHandler.java</file>
             <file>file:/C:/Users/Suchanan/OneDrive/Documents/NetBeansProjects/Untitled-BlackJack/src/resources/A.PNG</file>
-            <file>file:/C:/Users/Suchanan/OneDrive/Documents/NetBeansProjects/Untitled-BlackJack/src/Game/Judge.java</file>
             <file>file:/C:/Users/Suchanan/OneDrive/Documents/NetBeansProjects/Untitled-BlackJack/src/resources/HitButton.PNG</file>
+            <file>file:/C:/Users/Suchanan/OneDrive/Documents/NetBeansProjects/Untitled-BlackJack/src/Game/CardHandler.java</file>
         </group>
     </open-files>
 </project-private>

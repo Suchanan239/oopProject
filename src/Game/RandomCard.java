@@ -1,5 +1,5 @@
 
-package Controller;
+package Game;
 
 import Game.Card;
 import java.awt.Image;

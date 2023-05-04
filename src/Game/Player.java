@@ -10,6 +10,7 @@ public abstract class Player {
     private boolean status = true;
     private int numOfCard = 0;
     private int numOfTrumpChip = 0;
+    private int score = 0;
     private String connectID;
      //player's card
     private ArrayList<Card> myCard = new ArrayList<Card>();
